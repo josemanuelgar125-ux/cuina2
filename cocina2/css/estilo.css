@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; background: #f6f1e7; color: #222; margin: 0; padding: 20px; }
+header, footer, main { max-width: 800px; margin: 0 auto 20px; background: #fff; border: 6px solid #666; padding: 15px; }
+header h1 { text-align: center; color: #555; margin: 0; }
+footer { text-align: center; font-size: 14px; color: #555; }
+nav { text-align: center; margin-bottom: 20px; }
+nav ul { list-style: none; padding: 0; margin: 0; }
+nav li { display: inline-block; margin: 0 4px; }
+nav a, .boton { display: inline-block; background: #666; color: #fff; font-weight: bold; text-decoration: none; text-transform: uppercase; padding: 8px 12px; font-size: 14px; }
+nav a:hover, .boton:hover { background: #333; }
+article { border: 4px solid #666; padding: 15px; margin-bottom: 20px; overflow: hidden; }
+article h2 { color: #555; font-size: 18px; margin-top: 0; }
+article img { float: right; width: 190px; height: 190px; object-fit: cover; border-radius: 50%; margin-left: 15px; }
+.receta img { float: none; width: 100%; max-width: 400px; height: auto; border-radius: 0; margin: 15px 0; display: block; }
+.volver { max-width: 800px; margin: 0 auto 10px; }
+table { border-collapse: collapse; margin-bottom: 10px; }
+th, td { border: 1px solid #666; padding: 4px 10px; text-align: left; }
+th { background: #666; color: #fff; }
+ol li { margin-bottom: 6px; }
